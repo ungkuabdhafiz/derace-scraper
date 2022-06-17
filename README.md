@@ -12,12 +12,12 @@ The data folders will contain three folders: horse, horses, races. current_race.
 
 Ideally, you want to process the json data after the process has finished by inserting the data into a database. You may need to run this process several times to cover for data losses due to exceptions and connection problems. For example, you may encounter the *Timeout 30000.0ms exceeded while waiting for event "websocket"* error from time to time.
 
-The wait_for_timeout syntax scattered around the code is needed there to allow for the page to load completely and for the websocket data to be fetched completely. Feel free to fork and provide better suggestions and improvements.
+The wait_for_timeout syntax scattered around the code is needed there to allow for the page to load completely and for the websocket data to be fetched. Feel free to fork and provide better suggestions and improvements.
 
 
 ## Usage
 
-Usage is pretty straightforward, create a virtual and environment and install all the dependecies required.
+Usage is pretty straightforward, create a virtual environment and install all the dependencies required.
 
 ```
 python3 -m venv venv
